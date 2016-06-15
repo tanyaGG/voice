@@ -1,0 +1,111 @@
+Turkey
+Flavors
+Sausage
+Snack
+Lemon
+Ham
+Iced
+Donuts
+Bagels
+Espresso
+Ice
+Drinks
+Bagel
+Deluxe
+Hot
+Spread
+Munchkins
+O'Joe
+White
+Latte
+Toasted
+Flavored
+Coffee
+Dunkaccino
+KCups
+Egg
+Packaged
+Chocolate
+Bean
+Wake
+Key
+Croissant
+Blueberry
+Cheddar
+Box
+Coolatta
+Bar
+Summer
+Frozen
+Angus
+Vanilla
+Candy
+Macchiato
+Donut
+Cappuccino
+Hashbrowns
+English
+Grilled
+Steak
+Smoothies
+Muffin
+Flatbread
+Cheese
+Square
+Wildberry
+Tea
+Chai
+Bacon
+Veggie
+Bottled
+Cobbler
+Big
+Wrap
+Muffins
+Chicken
+Lime
+Cream
+Hot Chocolate
+Vanilla Chai
+Box O Joe
+Cream Cheese
+Iced Coffee
+Iced Latte
+Iced Macchiato
+Iced Tea
+Angus Steak Egg Cheese
+Big N Toasted
+Sausage Egg Cheese
+Bacon Egg Cheese
+Turkey Sausage Flatbread
+Ham Egg Cheese
+Veggie Egg White Flatbread
+Egg Cheese
+Wake up Wrap
+steak Egg Cheese
+Chicken Bacon
+Grilled Cheese
+Snack N Go
+Chicken Wrap
+Steak Wrap
+Frozen Coffee
+Vanilla Bean
+English Muffin
+Candy Bar Flavored
+Hot Coffee
+Hot Latte
+Hot Macchiato
+Ice Cream Flavored
+Candy Bar
+Ice Cream
+Summer Coolatta
+Wildberry Smoothies
+Blueberry Cobbler
+Croissant Donut
+Key Lime
+Veggie Egg
+WhiteFlatbread
+Wake up Wrap
+Bottled Drinks
+Packaged Coffee
+K Cups
