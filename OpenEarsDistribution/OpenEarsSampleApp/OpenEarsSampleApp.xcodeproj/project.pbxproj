@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		19E2BFA31D11CDD4003C2FE9 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19E2BFA21D11CDD4003C2FE9 /* words.txt */; };
+		19E2BFA71D11E3CC003C2FE9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E2BFA61D11E3CC003C2FE9 /* Media.xcassets */; };
+		19E2BFAA1D11EBA0003C2FE9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E2BFA91D11EBA0003C2FE9 /* RootViewController.m */; };
 		8C03F6211AF1011C00E49956 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C03F6201AF1011C00E49956 /* Slt.framework */; };
 		8C03F6221AF1011C00E49956 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C03F6201AF1011C00E49956 /* Slt.framework */; };
 		8C03F6231AF1011C00E49956 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C03F6201AF1011C00E49956 /* Slt.framework */; };
@@ -17,8 +19,6 @@
 		8C2F9B7D1507BEF20031011A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F9B7C1507BEF20031011A /* main.m */; };
 		8C2F9B811507BEF20031011A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F9B801507BEF20031011A /* AppDelegate.m */; };
 		8C2F9B841507BEF20031011A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F9B831507BEF20031011A /* ViewController.m */; };
-		8C2F9B871507BEF30031011A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F9B851507BEF30031011A /* ViewController_iPhone.xib */; };
-		8C2F9B8A1507BEF30031011A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F9B881507BEF30031011A /* ViewController_iPad.xib */; };
 		8C33F38F1A10F9CB00D56709 /* OETestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C33F38E1A10F9CB00D56709 /* OETestTools.m */; };
 		8C3A7C481A5C426A00DF3791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F9B831507BEF20031011A /* ViewController.m */; };
 		8C3A7C491A5C426A00DF3791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F9B831507BEF20031011A /* ViewController.m */; };
@@ -104,6 +104,9 @@
 
 /* Begin PBXFileReference section */
 		19E2BFA21D11CDD4003C2FE9 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		19E2BFA61D11E3CC003C2FE9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		19E2BFA81D11EBA0003C2FE9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		19E2BFA91D11EBA0003C2FE9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8C03F6201AF1011C00E49956 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
 		8C2F9B6C1507BEF20031011A /* OpenEarsSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEarsSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F9B701507BEF20031011A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -117,8 +120,6 @@
 		8C2F9B801507BEF20031011A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8C2F9B821507BEF20031011A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C2F9B831507BEF20031011A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8C2F9B861507BEF30031011A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		8C2F9B891507BEF30031011A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		8C2F9B911507BEF30031011A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8C33F38D1A10F9CB00D56709 /* OETestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OETestTools.h; path = ../../OpenEars/OpenEarsTests/OETestTools.h; sourceTree = "<group>"; };
 		8C33F38E1A10F9CB00D56709 /* OETestTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OETestTools.m; path = ../../OpenEars/OpenEarsTests/OETestTools.m; sourceTree = "<group>"; };
@@ -232,14 +233,15 @@
 		8C2F9B761507BEF20031011A /* OpenEarsSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				19E2BFA61D11E3CC003C2FE9 /* Media.xcassets */,
 				8C2F9B7F1507BEF20031011A /* AppDelegate.h */,
 				8C2F9B801507BEF20031011A /* AppDelegate.m */,
 				8CA3032B19CB3F200020A510 /* TestAppDelegate.h */,
 				8CA3032919CB3F040020A510 /* TestAppDelegate.m */,
+				19E2BFA81D11EBA0003C2FE9 /* RootViewController.h */,
+				19E2BFA91D11EBA0003C2FE9 /* RootViewController.m */,
 				8C2F9B821507BEF20031011A /* ViewController.h */,
 				8C2F9B831507BEF20031011A /* ViewController.m */,
-				8C2F9B851507BEF30031011A /* ViewController_iPhone.xib */,
-				8C2F9B881507BEF30031011A /* ViewController_iPad.xib */,
 				8C2F9B771507BEF20031011A /* Supporting Files */,
 			);
 			path = OpenEarsSampleApp;
@@ -406,17 +408,16 @@
 				8CB74E8119D9A3CB003DBD26 /* Reference1Headphones.wav in Resources */,
 				8CB74E7F19D9A3CB003DBD26 /* quiet_background_louder.wav in Resources */,
 				8CD857901AEA845C0090A493 /* Sherlock.txt in Resources */,
-				8C2F9B871507BEF30031011A /* ViewController_iPhone.xib in Resources */,
 				8CB74E8519D9A3CB003DBD26 /* word_statement_etc_short.wav in Resources */,
 				8CB74E7B19D9A3CB003DBD26 /* change_model_short.wav in Resources */,
 				8C5E50681A3311F10047717E /* Default-568h@2x.png in Resources */,
 				8CEAD2DE19E83E4200F5A6FF /* hi_qual_statement.m4a in Resources */,
-				8C2F9B8A1507BEF30031011A /* ViewController_iPad.xib in Resources */,
 				8CD857931AEA8EFC0090A493 /* Sherlock.arpa in Resources */,
 				8CD857961AEA8EFC0090A493 /* Sherlock.dic in Resources */,
 				8CA4BFB519ACA96D007CA626 /* AcousticModelEnglish.bundle in Resources */,
 				8CB74E8219D9A3CB003DBD26 /* Reference1InternalMic.wav in Resources */,
 				8CB74E7C19D9A3CB003DBD26 /* Change_model_utts.wav in Resources */,
+				19E2BFA71D11E3CC003C2FE9 /* Media.xcassets in Resources */,
 				8CB74E7819D9A3CB003DBD26 /* bad_silence.wav in Resources */,
 				8CB74E8419D9A3CB003DBD26 /* Reference2VeryBriefA.wav in Resources */,
 				19E2BFA31D11CDD4003C2FE9 /* words.txt in Resources */,
@@ -475,6 +476,7 @@
 			files = (
 				8C2F9B7D1507BEF20031011A /* main.m in Sources */,
 				8C2F9B811507BEF20031011A /* AppDelegate.m in Sources */,
+				19E2BFAA1D11EBA0003C2FE9 /* RootViewController.m in Sources */,
 				8C2F9B841507BEF20031011A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,22 +527,6 @@
 				8C2F9B7A1507BEF20031011A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8C2F9B851507BEF30031011A /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C2F9B861507BEF30031011A /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		8C2F9B881507BEF30031011A /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C2F9B891507BEF30031011A /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

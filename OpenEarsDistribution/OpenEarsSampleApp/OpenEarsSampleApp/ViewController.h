@@ -24,5 +24,7 @@
 
 @interface ViewController : UIViewController <OEEventsObserverDelegate> // This is how we implement the delegate protocol of OEEventsObserver.
 
+@property (copy, nonatomic) void (^doneHandler)(NSString *) ;
+
 @end
 

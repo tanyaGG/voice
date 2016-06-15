@@ -15,14 +15,13 @@ Deluxe
 Hot
 Spread
 Munchkins
-O'Joe
+O Joe
 White
 Latte
 Toasted
 Flavored
 Coffee
 Dunkaccino
-KCups
 Egg
 Packaged
 Chocolate
@@ -104,7 +103,7 @@ Blueberry Cobbler
 Croissant Donut
 Key Lime
 Veggie Egg
-WhiteFlatbread
+White Flatbread
 Wake up Wrap
 Bottled Drinks
 Packaged Coffee
