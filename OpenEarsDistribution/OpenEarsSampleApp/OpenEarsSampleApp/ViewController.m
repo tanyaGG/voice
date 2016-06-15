@@ -57,18 +57,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+  
+    UIVisualEffectView *ve = [[UIVisualEffectView alloc]  initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleDark]];
+    ve.frame = [[UIScreen mainScreen] bounds];
+    ve.tintColor = [UIColor blackColor];
+
+    [ve addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(done)]];
     
-    self.view.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:ve];
+    
     UILabel *intro = [[UILabel alloc] init];
-    intro.textColor = [UIColor grayColor];
+    intro.textColor = [UIColor whiteColor];
+    intro.font = [UIFont boldSystemFontOfSize:16.0f];
     intro.text = @"What are you looking for?";
+    intro.numberOfLines = 0;
+    
+    UILabel *intro2 = [[UILabel alloc] init];
+    intro2.font = [UIFont boldSystemFontOfSize:14.0f];
+    intro2.textColor = [UIColor whiteColor];
+    intro2.text = @"Say something like...\n\n Bagel or Hot Coffe";
+    intro2.numberOfLines = 0;
+
+    intro2.translatesAutoresizingMaskIntoConstraints = NO;
     intro.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:intro];
-    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:intro attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1 constant:0]];
+    [self.view addSubview:intro2];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:intro attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1 constant:-40]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:intro attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1 constant:0]];
     
 
-    UIButton *done = [[UIButton alloc] init];
+    UIButton *done = [UIButton buttonWithType:UIButtonTypeSystem];
     [done setTitle:NSLocalizedString(@"Done", nil)  forState:UIControlStateNormal];
     [done addTarget:self action:@selector(done) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:done];
@@ -77,7 +95,10 @@
     [done addConstraint:[NSLayoutConstraint constraintWithItem:done attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:50]];
     [done addConstraint:[NSLayoutConstraint constraintWithItem:done attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:100]];
     
-    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:done attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:intro attribute:NSLayoutAttributeBottom multiplier:1 constant:0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:intro2 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:intro attribute:NSLayoutAttributeBottom multiplier:1 constant:20]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:intro2 attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:intro attribute:NSLayoutAttributeCenterX multiplier:1 constant:0]];
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:done attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:intro2 attribute:NSLayoutAttributeBottom multiplier:1 constant:20]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:done attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:intro attribute:NSLayoutAttributeCenterX multiplier:1 constant:0]];
 
     

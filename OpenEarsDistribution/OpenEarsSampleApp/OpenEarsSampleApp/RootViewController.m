@@ -39,7 +39,7 @@
 - (IBAction) startButtonAction {
 
     ViewController *vc = [[ViewController alloc] init];
-    vc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    vc.modalPresentationStyle = UIModalPresentationCustom;
     vc.doneHandler = ^(NSString *phrase) {
         NSLog(@"phrase %@", phrase);
     };
